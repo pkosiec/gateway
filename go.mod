@@ -3,7 +3,6 @@ module github.com/nautilus/gateway
 require (
 	github.com/99designs/gqlgen v0.13.0
 	github.com/graph-gophers/graphql-go v0.0.0-20190108123631-d5b7dc6be53b
-	github.com/graphql-go/graphql v0.7.9 // indirect
 	github.com/mitchellh/mapstructure v1.3.3
 	github.com/nautilus/graphql v0.0.12
 	github.com/opentracing/opentracing-go v1.2.0 // indirect
@@ -15,5 +14,7 @@ require (
 	golang.org/x/sys v0.0.0-20201005172224-997123666555 // indirect
 	gopkg.in/yaml.v2 v2.3.0 // indirect
 )
+
+replace github.com/nautilus/graphql => github.com/pkosiec/graphql v0.0.13-0.20201208111257-86f2e16b2778
 
 go 1.13
